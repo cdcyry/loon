@@ -10,4 +10,4 @@ ctier=[A-Z] ctier=A 302
 (^https?:\/\/*\.\w{4}okv.com\/.+&.+)(\d{2}\.3\.\d)(.+) $118.0$3 302
 
 [MITM]
-hostname = *.tiktokv.com,*.byteoversea.com,*.musical.ly,*.snssdk.com,*.googlevideo.com
+hostname = *.tiktokv.com, *.byteoversea.com, *.tik-tokapi.com, *.musical.ly, *.snssdk.com, *.googlevideo.com
