@@ -1,0 +1,11 @@
+[URL Rewrite]
+^http://(www.)?google.cn https://www.google.com 302
+(?<=_region=)CN(?=&) PH 302
+(?<=\d\/\?version_code=)1[6-9]..(?=.?.?&) 17 302
+(?<=\?version_code=)1[8-9]..(?=.?.?&) 17 302
+(?<=&mcc_mnc=)4 2 302
+ctier=[A-Z] ctier=A 302
+^https:\/\/[\s\S]*\.googlevideo\.com/.*&(oad|ctier) _ REJECT
+
+[MITM]
+hostname = *.tiktokv.com,*.byteoversea.com,*.musical.ly,*.snssdk.com,*.googlevideo.com
