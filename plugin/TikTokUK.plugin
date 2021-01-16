@@ -8,4 +8,4 @@ ctier=[A-Z] ctier=A 302
 ^https:\/\/[\s\S]*\.googlevideo\.com/.*&(oad|ctier) _ REJECT
 
 [MITM]
-hostname = *.tiktokv.com,*.byteoversea.com,*.tik-tokapi.com,*.musical.ly,*.snssdk.com,*.googlevideo.com
+hostname = *.tiktokv.com, *.byteoversea.com, *.tik-tokapi.com, *.musical.ly, *.snssdk.com, *.googlevideo.com
