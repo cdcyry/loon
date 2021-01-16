@@ -1,0 +1,25 @@
+[Rule]
+DOMAIN-SUFFIX,byteoversea.com
+DOMAIN-SUFFIX,ibytedtos.com
+DOMAIN-SUFFIX,ipstatp.com
+DOMAIN-SUFFIX,muscdn.com
+DOMAIN-SUFFIX,musical.ly
+DOMAIN-SUFFIX,tik-tokapi.com
+DOMAIN-SUFFIX,tiktok.com
+DOMAIN-SUFFIX,tiktokcdn.com
+DOMAIN-SUFFIX,tiktokv.com
+DOMAIN-KEYWORD,-tiktokcdn-com
+USER-AGENT,tiktok*
+
+[URL Rewrite]
+
+^http://(www.)?google.cn https://www.google.com 302
+(?<=_region=)CN(?=&) UK 302
+(?<=\d\/\?version_code=)1[6-9]..(?=.?.?&) 17 302
+(?<=\?version_code=)1[8-9]..(?=.?.?&) 17 302
+(?<=&mcc_mnc=)4 2 302
+ctier=[A-Z] ctier=A 302
+^https:\/\/[\s\S]*\.googlevideo\.com/.*&(oad|ctier) _ REJECT
+
+[MITM]
+hostname = *.tiktokv.com,*.byteoversea.com,*.musical.ly,*.snssdk.com,*.googlevideo.com
