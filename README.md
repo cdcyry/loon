@@ -5,4 +5,6 @@ README.md
 
 注意: 据报 TikTok Global 17.9.0 应该是 SSL Pinning 了（ musical.ly 版仍在 17.8.1），仍需要观看 TikTok 的切勿升级。
 
-注意：版本号大于17.9.0 请尝试使用 https://github.com/Tartarus2014/Loon-Script/tree/master/Plugin/Unlock/Test 里面的解锁。
+注意：此插件用于版本号 v18.3.0
+
+注意：需添加TikTok分流订阅规则实时版使用 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/TikTok/TikTok.list
