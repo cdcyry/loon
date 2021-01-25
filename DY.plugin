@@ -4,6 +4,7 @@
 
 [Rule]
 DOMAIN-SUFFIX, amemv.com, DIRECT
+DOMAIN-SUFFIX, aweme.snssdk.com, DIRECT
 DOMAIN-SUFFIX, byteimg.com, DIRECT
 DOMAIN-SUFFIX, dig.bdurl.net, DIRECT
 DOMAIN-SUFFIX, ibytedtos.com, REJECT
