@@ -3,6 +3,9 @@
 # 作者GitHub：https://github.com/Choler
 
 [Rule]
+DOMAIN-SUFFIX, amemv.com, DIRECT
+DOMAIN-SUFFIX, byteimg.com, DIRECT
+DOMAIN-SUFFIX, dig.bdurl.net, DIRECT
 DOMAIN-SUFFIX, ibytedtos.com, REJECT
 DOMAIN-SUFFIX, ipstatp.com, REJECT
 
