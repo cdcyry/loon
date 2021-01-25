@@ -2,6 +2,12 @@
 #!desc=抖音 去广告&水印
 #!system=ios
 
+[Rule]
+DOMAIN-SUFFIX, amemv.com, DIRECT
+DOMAIN-SUFFIX, byteimg.com, DIRECT
+DOMAIN-SUFFIX, dig.bdurl.net, DIRECT
+DOMAIN-SUFFIX, ibytedtos.com, REJECT
+DOMAIN-SUFFIX, ipstatp.com, REJECT
 
 
 [Url Rewrite]
