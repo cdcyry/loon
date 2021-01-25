@@ -15,13 +15,13 @@
 ^https?:\/\/[\w-]+\.amemv\.com\/aweme\/v\d\/hot/search\/video\/list\/ https://aweme.snssdk.com/aweme/v1/hot/search/video/list/ header
 
 [Script]
-http-response ^https?:\/\/aweme\.snssdk\.com\/aweme/v1/aweme\/post\/ script-path=https://Choler.github.io/Surge/Script/douyin.js, requires-body=true, timeout=10, tag=抖音_post
-http-response ^https?:\/\/aweme\.snssdk\.com\/aweme\/v1\/feed\/ script-path=https://Choler.github.io/Surge/Script/douyin.js, requires-body=true, timeout=10, tag=抖音_feed.js
-http-response ^https?:\/\/aweme\.snssdk\.com\/aweme\/v1\/follow\/feed\/ script-path=https://Choler.github.io/Surge/Script/douyin.js, requires-body=true, timeout=10, tag=抖音_follow.js
-http-response ^https?:\/\/aweme\.snssdk\.com\/aweme\/v1\/nearby\/feed\/ script-path=https://Choler.github.io/Surge/Script/douyin.js, requires-body=true, timeout=10, tag=抖音_nearby.js
-http-response ^https?:\/\/aweme\.snssdk\.com\/aweme\/v1\/search\/item\/ script-path=https://Choler.github.io/Surge/Script/douyin.js, requires-body=true, timeout=10, tag=抖音_item
-http-response ^https?:\/\/aweme\.snssdk\.com\/aweme\/v1\/general\/search\/single\/ script-path=https://Choler.github.io/Surge/Script/douyin.js, requires-body=true, timeout=10, tag=抖音_search
-http-response ^https?:\/\/aweme\.snssdk\.com\/aweme\/v1\/hot\/search\/video\/list\/ script-path=https://Choler.github.io/Surge/Script/douyin.js, requires-body=true, timeout=10, tag=抖音_hot
+http-response ^https?:\/\/aweme\.snssdk\.com\/aweme/v1/aweme\/post\/ script-path=https://raw.githubusercontent.com/Choler/Surge/master/Script/douyin.js, requires-body=true, timeout=10, tag=抖音_post
+http-response ^https?:\/\/aweme\.snssdk\.com\/aweme\/v1\/feed\/ script-path=https://raw.githubusercontent.com/Choler/Surge/master/Script/douyin.js, requires-body=true, timeout=10, tag=抖音_feed.js
+http-response ^https?:\/\/aweme\.snssdk\.com\/aweme\/v1\/follow\/feed\/ script-path=https://raw.githubusercontent.com/Choler/Surge/master/Script/douyin.js, requires-body=true, timeout=10, tag=抖音_follow.js
+http-response ^https?:\/\/aweme\.snssdk\.com\/aweme\/v1\/nearby\/feed\/ script-path=https://raw.githubusercontent.com/Choler/Surge/master/Script/douyin.js, requires-body=true, timeout=10, tag=抖音_nearby.js
+http-response ^https?:\/\/aweme\.snssdk\.com\/aweme\/v1\/search\/item\/ script-path=https://raw.githubusercontent.com/Choler/Surge/master/Script/douyin.js, requires-body=true, timeout=10, tag=抖音_item
+http-response ^https?:\/\/aweme\.snssdk\.com\/aweme\/v1\/general\/search\/single\/ script-path=https://raw.githubusercontent.com/Choler/Surge/master/Script/douyin.js, requires-body=true, timeout=10, tag=抖音_search
+http-response ^https?:\/\/aweme\.snssdk\.com\/aweme\/v1\/hot\/search\/video\/list\/ script-path=https://raw.githubusercontent.com/Choler/Surge/master/Script/douyin.js, requires-body=true, timeout=10, tag=抖音_hot
 
 [MITM]
 hostname = *.amemv.com, aweme.snssdk.com
