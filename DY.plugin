@@ -2,13 +2,6 @@
 #!desc=抖音 去广告&水印
 #!system=ios
 
-[Rule]
-DOMAIN-SUFFIX, amemv.com, REJECT
-DOMAIN-SUFFIX, byteimg.com, REJECT
-DOMAIN-SUFFIX, dig.bdurl.net, REJECT
-DOMAIN-SUFFIX, ibytedtos.com, REJECT
-DOMAIN-SUFFIX, ipstatp.com, REJECT
-
 
 [Url Rewrite]
 # 需配合脚本使用
